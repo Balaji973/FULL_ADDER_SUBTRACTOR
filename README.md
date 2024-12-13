@@ -39,7 +39,7 @@ Diff = A ⊕ B ⊕ Bin
 
 Borrow out = A'Bin + A'B + BBin
 
-*Truthtable*
+###  Truthtable
 
 FULL ADDER
 
@@ -51,12 +51,7 @@ FULL SUBTRACTOR
 ![WhatsApp Image 2024-11-28 at 10 56 47_43251b5a](https://github.com/user-attachments/assets/20bab93e-9726-427d-a788-7c7622f515a9)
 
 
-
-
-*Program:*
-*DEVELOPED BY: SURYA*
-*REG NO : 24901185*
-
+### PROGRAM
 
 i)FULL ADDER
 
@@ -77,7 +72,7 @@ assign difference= ( (a ^ b)^bin);
 assign borrow= ( ( a & b)| ( bin & (a ^ b )));
 endmodule
 
-*RTL Schematic*
+### RTL Schematic
 
 FULL ADDER
 
@@ -91,7 +86,7 @@ FUL SUBTRACTER
 
 
 
-*Output Timing Waveform*
+### Output Timing Waveform
 
 FULL ADDER
 
@@ -105,7 +100,7 @@ FULL SUBTRACTER
 
 
 
-*Result:*
+###  Result:
 
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
 
