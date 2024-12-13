@@ -4,8 +4,7 @@
 
 # EXP -04-FULL_ADDER_SUBTRACTOR
 
-
-*AIM:*
+### AIM:
 
 To design a Full Adder and Full Subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
@@ -39,7 +38,7 @@ Diff = A ⊕ B ⊕ Bin
 
 Borrow out = A'Bin + A'B + BBin
 
-###  Truthtable
+###  TRUTHTABLE:
 
 FULL ADDER
 
@@ -51,7 +50,7 @@ FULL SUBTRACTOR
 ![WhatsApp Image 2024-11-28 at 10 56 47_43251b5a](https://github.com/user-attachments/assets/20bab93e-9726-427d-a788-7c7622f515a9)
 
 
-### PROGRAM
+### PROGRAM:
 
 i)FULL ADDER
 
@@ -72,7 +71,7 @@ assign difference= ( (a ^ b)^bin);
 assign borrow= ( ( a & b)| ( bin & (a ^ b )));
 endmodule
 
-### RTL Schematic
+### RTL SCHEMATIC:
 
 FULL ADDER
 
@@ -86,7 +85,7 @@ FUL SUBTRACTER
 
 
 
-### Output Timing Waveform
+### OUTPUT TIMELINE WAVEFORM :
 
 FULL ADDER
 
@@ -100,7 +99,7 @@ FULL SUBTRACTER
 
 
 
-###  Result:
+###  RESULT :
 
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
 
